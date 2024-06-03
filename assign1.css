@@ -1,0 +1,270 @@
+.signup_disable_web{
+background: #F7F8F9;
+opacity: 0px;
+gap:0px;
+/* padding: 20px;  */
+}
+
+.signup_container{
+    width:  27%;
+/* height: 67%; */
+
+padding: 40px 80px 40px 80px;
+gap: 32px;
+border-radius: 40px ;
+background:  #FFFFFF;
+ margin-right: auto; 
+ margin-left: auto; 
+box-shadow: 0px 12px 36px 0px #e6e6e6;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin:  auto; 
+}
+form{
+    width: 100%;
+    display: flex;
+    /* align-self: center; */
+    gap:16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+     width: 100%; 
+height: 48px;
+gap: 0px;
+border-radius: 6px ;
+/* border: 1px ; */
+opacity: 0px;
+background: #F7F8F9;
+border: 1px solid #E7EAEE;
+}
+
+.create_account{
+    color: #191D23;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+height: 48px;
+opacity: 0px;
+margin-right: auto; 
+margin-left: auto; 
+text-align: center;
+justify-content: center;
+
+/* background-color: skyblue; */
+}
+.input_field{
+     width: 100%;
+    /* height:  336px;  */
+    gap: 16px;
+    /* margin-right: auto; 
+    margin-left: auto; 
+    text-align: center;
+    /* align-items: center; */
+    display:flex;
+    justify-content: center; 
+  
+flex-direction: column;
+margin: 0 auto; 
+}
+.fullname{
+     width: 100%;
+     
+     /* width:100%; */
+     display:flex;
+     flex-direction: column;
+height: 72px;
+gap: 8px;
+opacity: 0px;
+
+}
+.fullhead{
+    width: 22%;
+height: 16px;
+opacity: 0px;
+color:#4B5768;
+
+}
+.fullinput{
+    width: 100%;
+height: 48px;
+
+border-radius: 6px ;
+border: 1px ;
+opacity: 0px;
+ /* background: #F7F8F9; */
+
+}
+.fullemail{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+height: 72px;
+gap: 8px;
+opacity: 0px;
+}
+.emailhead{
+    width: 22%;
+height: 16px;
+opacity: 0px;
+color:#4B5768;
+}
+.emailinput{
+    width: 100%;
+height: 48px;
+gap: 0px;
+border-radius: 6px ;
+border: 1px ;
+opacity: 0px;
+/* background: #4B5768; */
+}
+.fullpassword{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+height: 72px;
+gap: 8px;
+opacity: 0px;
+}
+.passwordhead{
+    width: 22%;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+color:#4B5768;
+}
+.passwordinput{
+    width: 100%;
+height: 48px;
+gap: 0px;
+border-radius: 6px ;
+border: 1px ;
+opacity: 0px;
+display:flex;
+align-items: center;
+/* background: #4B5768; */
+}
+.phone{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+height: 72px;
+gap: 8px;
+}
+.phonehead{
+    width: 22%;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+color:#4B5768;
+}
+.phoneinput{
+    width: 100%;
+height: 48px;
+gap: 0px;
+border-radius: 6px ;
+border: 1px ;
+/* background: #4B5768; */
+}
+ .cat_container{
+    width: 100%;
+height:  152px;
+gap: 16px;
+} 
+
+ .signup_button{
+width: 100%;
+height: 48px;
+padding: 16px 8px 16px 8px;
+gap: 8px;
+border-radius: 35px ;
+background-color: #6EE7B7;
+} 
+
+.or{
+    color: #64748B;
+    padding: 16px 8px 16px 8px;
+    font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+ text-align: center;
+}
+
+a{
+    color: #10B981;
+    
+
+}
+.already{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.signup{
+    width: 100%;
+height: 48px;
+padding: 16px 8px 16px 8px;
+gap: 8px;
+border-radius: 35px ;
+}
+.background_green{
+    background-color: #6EE7B7;
+}
+.background_black{
+    background-color: #191D23;
+
+}
+
+button{
+    border:none;
+}
+span{
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1920px) {
+    .signup_container {
+      width: 100%;
+     
+    }
+    .input_field {
+      width: 70%;
+     
+    }
+    .cat_container {
+      width: 70%;
+   
+    }
+  }
+  
+
+  @media only screen and (max-width: 375px) {
+    .signup_container {
+      width: 335px;
+     
+    }
+    .input_field {
+        width: 311px;
+     
+      }
+    
+      .cat_container {
+        width: 311px;
+        
+      }
+  }
+  .passwordinput img{
+    width:20px;
+    cursor:pointer;
+
+  }
+
+

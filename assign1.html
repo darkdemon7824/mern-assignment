@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="assign1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body  style="margin:0; padding:0">
+    <div class="signup_disable_web">
+        <div class="signup_container">
+            <div class="create_account"><h1 >create an account</h1></div>
+             <form>
+            <div class="input_field"> 
+               
+                 <div class="fullname">
+                  <div class="fullhead"> <label for="fname" >fullname</label></div>
+                    <div class="fullinput" ><input type="text" id="fname" name="fname"> </div>
+                  </div> 
+                <div class="fullemail">
+                  <div class="emailhead"><label for="email" > email</label></div>
+                  <div class="emailinput" ><input type="text" id="email" name="email"> </div>
+                </div>
+                
+                <div class="fullpassword">
+                  <div class="passwordhead"><label for="passwordinput" >password</label></div>
+                  <div class="passwordinput" style="background-color: #F7F8F9;">
+                    <input type="password"  id="password" >
+                    <img src="eye-close.png" id="eyeicon"> 
+                  </div>
+                </div>
+                <div class="phone">
+                  <div class="phonehead"><label for="phone">phone number</label></div>
+                  <div class="phoneinput"><input type="number" id="phone" name="phone"> </div>
+                </div> 
+                </div>
+               <div class="cat_container">
+                  <button class="signup background_green" ><span>Sign Up</span> </button>
+                <div class="or"> OR</div>
+               <button class="signup background_black"><span >Sign Up With Google</span> </button>
+               
+            </div>
+          </form> 
+            <div class="already">Already Have An Account? <a href="">Login</a></div>
+          
+        </div>
+    </div>
+    <script>
+      let eyeicon=document.getElementById("eyeicon");
+      let password=document.getElementById("password");
+
+      eyeicon.onclick=function(){
+        if(password.type == "password"){
+          password.type= "text";
+           eyeicon.src= "eye-open.png"; 
+        }
+        else{
+          password.type= "password";
+          eyeicon.src= "eye-close.png"; 
+        }
+      
+      }
+    </script>
+  </body>
+  </html>
